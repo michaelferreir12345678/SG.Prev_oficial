@@ -25,7 +25,7 @@ import './assets/layout/layout.scss';
 import './App.scss';
 import MetaAtuarial from './pages/MetaAtuarial';
 import Login from './pages/Login';
-import { LoginService } from './service/util/LoginService';
+import { LoginService } from './service/LoginService';
 
 const App = () => {
     const [layoutMode, setLayoutMode] = useState('static');
