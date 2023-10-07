@@ -11,7 +11,7 @@ export class ServiceBase {
 
     inicializarAxios() {
         this.axiosInstance = axios.create({
-            baseURL: 'http://13.48.92.250/api/',
+            baseURL:'https://michaelferreiradev.com.br/api/',
         });
 
         this.axiosInstance.interceptors.request.use((config) => {
